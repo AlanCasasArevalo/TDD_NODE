@@ -28,10 +28,11 @@ const handlers = ({ axios })  => ({
         const { data } = await axios.put(`https://jsonplaceholder.typicode.com/users/${id}`, body);
         if (data && typeof data !== 'undefined') {
             res.status(204).json(data)
+        } else {
+            res.status(400).json({
+                error: 'No se ha podido realizar la peticion'
+            })
         }
-        res.status(400).json({
-            error: 'No se ha podido realizar la peticion '
-        })
     },
 
     delete: async (req, res) => {
