@@ -36,7 +36,7 @@ const handlers = ({ axios })  => ({
     },
 
     delete: async (req, res) => {
-        const { id } = req;
+        const { id } = req.params;
         const { data } = await axios.delete(`https://jsonplaceholder.typicode.com/users/${id}`);
         if (data && typeof data !== 'undefined') {
             res.status(204).json(data)
