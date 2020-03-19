@@ -1,5 +1,5 @@
 const handlers = require('./index');
-describe('ENDPOINTS', () => {
+xdescribe('ENDPOINTS', () => {
     describe('USERS', () => {
         describe('GET', () => {
             it('return to user json', async () => {
