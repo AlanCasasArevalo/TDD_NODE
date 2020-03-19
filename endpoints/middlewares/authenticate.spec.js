@@ -27,10 +27,12 @@ describe('MIDDLEWARES', () => {
             const next = jest.fn();
             authenticate(req, res, next)
             expect(req.header.mock.calls).toEqual([['user_id']]);
+            // Se tiene que recibir un 403 en caso de que no sea un id 1 en el header
             expect(res.sendStatus.mock.calls).toEqual([[
                 403
             ]]);
-            expect(next.mock.calls).toEqual([[]])
+            // Se obtendra un solo array debido a que no tiene que ser llamada la funcion de next por haber recibido el 403
+            expect(next.mock.calls).toEqual([])
         })
 
     })
