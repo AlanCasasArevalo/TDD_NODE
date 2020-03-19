@@ -1,0 +1,42 @@
+{
+  "shipments": [
+    {
+      "shipmentCode": "PK29ZM0453686490133207Y",
+      "alias": "Regalo Reyes"
+    },
+    {
+      "shipmentCode": "PK29ZM0453686490133207X",
+      "alias": "Regalo Antonio"
+    },
+    {
+      "shipmentCode": "PK29ZM0453686490133207W",
+      "alias": "Regalo Pedro"
+    },
+    {
+      "shipmentCode": "PK29ZM0453686490133207V",
+      "alias": "Regalo Juan"
+    },
+    {
+      "shipmentCode": "PK29ZM0453686490133207Z",
+      "alias": "Regalo Robert"
+    },
+    {
+      "shipmentCode": "PK29ZM0453686490133207U",
+      "alias": "Regalo Luisa"
+    },
+    {
+      "shipmentCode": "PK29ZM0453686490133207T",
+      "alias": "Regalo Laura"
+    }
+  ],
+  "burofax": [
+    {
+      "shipmentCode": "PK29ZM0453686490133207U",
+      "alias": "Regalo Luisa"
+    },
+    {
+      "shipmentCode": "PK29ZM0453686490133207U",
+      "alias": "Regalo Luisa"
+    }
+  ]
+}
